@@ -1,0 +1,179 @@
+
+primary-50
+
+tag/tag.styles.ts:    background-color: var(--sl-color-primary-50);
+button/button.styles.ts:    background-color: var(--sl-color-primary-50);
+
+primary-100
+
+button/button.styles.ts:    background-color: var(--sl-color-primary-100);
+
+primary-200
+
+tag/tag.styles.ts:    border-color: var(--sl-color-primary-200);
+
+primary-300
+
+button/button.styles.ts:    border-color: var(--sl-color-primary-300);
+
+primary-400
+
+button/button.styles.ts:    border-color: var(--sl-color-primary-400);
+
+primary-500
+
+range/range.styles.ts:    background-color: var(--sl-color-primary-500);
+range/range.styles.ts:    border-color: var(--sl-color-primary-500);
+range/range.styles.ts:    background-color: var(--sl-color-primary-500);
+range/range.styles.ts:    border-color: var(--sl-color-primary-500);
+range/range.styles.ts:    background-color: var(--sl-color-primary-500);
+range/range.styles.ts:    border-color: var(--sl-color-primary-500);
+range/range.styles.ts:    background-color: var(--sl-color-primary-500);
+range/range.styles.ts:    border-color: var(--sl-color-primary-500);
+input/input.styles.ts:    -webkit-text-fill-color: var(--sl-color-primary-500);
+radio/radio.styles.ts:    border-color: var(--sl-color-primary-500);
+radio/radio.styles.ts:    background-color: var(--sl-color-primary-500);
+button/button.styles.ts:    background-color: var(--sl-color-primary-500);
+button/button.styles.ts:    border-color: var(--sl-color-primary-500);
+button/button.styles.ts:    color: var(--sl-color-primary-500);
+button/button.styles.ts:    color: var(--sl-color-primary-500);
+breadcrumb-item/breadcrumb-item.styles.ts:    color: var(--sl-color-primary-500);
+checkbox/checkbox.styles.ts:    border-color: var(--sl-color-primary-500);
+checkbox/checkbox.styles.ts:    background-color: var(--sl-color-primary-500);
+color-picker/color-picker.styles.ts:      box-shadow: 0 0 0 0 var(--sl-color-primary-500);
+
+primary-600
+
+tab/tab.styles.ts:    color: var(--sl-color-primary-600);
+tab/tab.styles.ts:    color: var(--sl-color-primary-600);
+tab/tab.styles.ts:    color: var(--sl-color-primary-600);
+checkbox/checkbox.styles.ts:    border-color: var(--sl-color-primary-600);
+checkbox/checkbox.styles.ts:    background-color: var(--sl-color-primary-600);
+icon-button/icon-button.styles.ts:    color: var(--sl-color-primary-600);
+option/option.styles.ts:    background-color: var(--sl-color-primary-600);
+tree-item/tree-item.styles.ts:    border-inline-start-color: var(--sl-color-primary-600);
+tag/tag.styles.ts:    color: var(--sl-color-primary-600);
+switch/switch.styles.ts:    border-color: var(--sl-color-primary-600);
+switch/switch.styles.ts:    background-color: var(--sl-color-primary-600);
+switch/switch.styles.ts:    border-color: var(--sl-color-primary-600);
+switch/switch.styles.ts:    border-color: var(--sl-color-primary-600);
+switch/switch.styles.ts:    background-color: var(--sl-color-primary-600);
+switch/switch.styles.ts:    border-color: var(--sl-color-primary-600);
+switch/switch.styles.ts:    border-color: var(--sl-color-primary-600);
+switch/switch.styles.ts:    background-color: var(--sl-color-primary-600);
+switch/switch.styles.ts:    border-color: var(--sl-color-primary-600);
+switch/switch.styles.ts:    border-color: var(--sl-color-primary-600);
+progress-ring/progress-ring.styles.ts:    --indicator-color: var(--sl-color-primary-600);
+menu-item/menu-item.styles.ts:    background-color: var(--sl-color-primary-600);
+range/range.styles.ts:    background-color: var(--sl-color-primary-600);
+range/range.styles.ts:    border: solid var(--sl-input-border-width) var(--sl-color-primary-600);
+range/range.styles.ts:    background-color: var(--sl-color-primary-600);
+range/range.styles.ts:    border-color: var(--sl-color-primary-600);
+split-panel/split-panel.styles.ts:    background-color: var(--sl-color-primary-600);
+progress-bar/progress-bar.styles.ts:    --indicator-color: var(--sl-color-primary-600);
+radio/radio.styles.ts:    border-color: var(--sl-color-primary-600);
+radio/radio.styles.ts:    background-color: var(--sl-color-primary-600);
+tab-group/tab-group.styles.ts:    --indicator-color: var(--sl-color-primary-600);
+spinner/spinner.styles.ts:    --indicator-color: var(--sl-color-primary-600);
+breadcrumb-item/breadcrumb-item.styles.ts:    color: var(--sl-color-primary-600);
+breadcrumb-item/breadcrumb-item.styles.ts:    color: var(--sl-color-primary-600);
+alert/alert.styles.ts:    border-top-color: var(--sl-color-primary-600);
+alert/alert.styles.ts:    color: var(--sl-color-primary-600);
+alert/alert.styles.ts:    background-color: var(--sl-color-primary-600);
+badge/badge.styles.ts:    background-color: var(--sl-color-primary-600);
+badge/badge.styles.ts:    --pulse-color: var(--sl-color-primary-600);
+button/button.styles.ts:    background-color: var(--sl-color-primary-600);
+button/button.styles.ts:    border-color: var(--sl-color-primary-600);
+button/button.styles.ts:    background-color: var(--sl-color-primary-600);
+button/button.styles.ts:    border-color: var(--sl-color-primary-600);
+button/button.styles.ts:    border-color: var(--sl-color-primary-600);
+button/button.styles.ts:    background-color: var(--sl-color-primary-600);
+button/button.styles.ts:    border-color: var(--sl-color-primary-600);
+button/button.styles.ts:    color: var(--sl-color-primary-600);
+button/button.styles.ts:    background-color: var(--sl-color-primary-600);
+button/button.styles.ts:    color: var(--sl-color-primary-600);
+
+primary-700
+
+icon-button/icon-button.styles.ts:    color: var(--sl-color-primary-700);
+button/button.styles.ts:    color: var(--sl-color-primary-700);
+button/button.styles.ts:    color: var(--sl-color-primary-700);
+button/button.styles.ts:    border-color: var(--sl-color-primary-700);
+button/button.styles.ts:    background-color: var(--sl-color-primary-700);
+button/button.styles.ts:    border-color: var(--sl-color-primary-700);
+button/button.styles.ts:    background-color: var(--sl-color-primary-700);
+button/button.styles.ts:    color: var(--sl-color-primary-700);
+
+primary-800
+
+tag/tag.styles.ts:    color: var(--sl-color-primary-800);
+
+primary-900
+
+
+primary-950
+
+
+neutral-0
+
+switch/switch.styles.ts:    background-color: var(--sl-color-neutral-0);
+switch/switch.styles.ts:    background-color: var(--sl-color-neutral-0);
+switch/switch.styles.ts:    background-color: var(--sl-color-neutral-0);
+switch/switch.styles.ts:    background-color: var(--sl-color-neutral-0);
+switch/switch.styles.ts:    background-color: var(--sl-color-neutral-0);
+switch/switch.styles.ts:    background-color: var(--sl-color-neutral-0);
+drawer/drawer.styles.ts:      border: solid 1px var(--sl-color-neutral-0);
+avatar/avatar.styles.ts:    color: var(--sl-color-neutral-0);
+color-picker/color-picker.styles.ts:      inset 0 0 0 4px var(--sl-color-neutral-0);
+split-panel/split-panel.styles.ts:    color: var(--sl-color-neutral-0);
+dialog/dialog.styles.ts:      border: solid 1px var(--sl-color-neutral-0);
+button/button.styles.ts:    background-color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+button/button.styles.ts:    color: var(--sl-color-neutral-0);
+radio/radio.styles.ts:    color: var(--sl-color-neutral-0);
+checkbox/checkbox.styles.ts:    color: var(--sl-color-neutral-0);
+details/details.styles.ts:    background-color: var(--sl-color-neutral-0);
+menu-item/menu-item.styles.ts:    color: var(--sl-color-neutral-0);
+image-comparer/image-comparer.styles.ts:    background-color: var(--sl-color-neutral-0);
+image-comparer/image-comparer.styles.ts:    background-color: var(--sl-color-neutral-0);
+badge/badge.styles.ts:    border: solid 1px var(--sl-color-neutral-0);
+badge/badge.styles.ts:    color: var(--sl-color-neutral-0);
+badge/badge.styles.ts:    color: var(--sl-color-neutral-0);
+badge/badge.styles.ts:    color: var(--sl-color-neutral-0);
+badge/badge.styles.ts:    color: var(--sl-color-neutral-0);
+badge/badge.styles.ts:    color: var(--sl-color-neutral-0);
+progress-bar/progress-bar.styles.ts:    --label-color: var(--sl-color-neutral-0);
+progress-bar/progress-bar.styles.ts:      background-color: var(--sl-color-neutral-0);
+option/option.styles.ts:    color: var(--sl-color-neutral-0);
+popup/popup.component.ts: * @cssproperty [--arrow-color=var(--sl-color-neutral-0)] - The color of the arrow.
+
+neutral-1000
+
+menu-item/menu-item.styles.ts:    color: var(--sl-color-neutral-1000);
+popup/popup.styles.ts:    --arrow-color: var(--sl-color-neutral-1000);
+option/option.styles.ts:    color: var(--sl-color-neutral-1000);
