@@ -1,0 +1,774 @@
+image-comparer/image-comparer.styles.ts
+48-    height: 100%;
+49:    background-color: var(--sl-color-neutral-0);
+50-    translate: calc(var(--divider-width) / -2);
+--
+61-    height: var(--handle-size);
+62:    background-color: var(--sl-color-neutral-0);
+63-    border-radius: var(--sl-border-radius-circle);
+64-    font-size: calc(var(--handle-size) * 0.5);
+65:    color: var(--sl-color-neutral-700);
+66-    cursor: inherit;
+
+rating/rating.styles.ts
+4-  :host {
+5:    --symbol-color: var(--sl-color-neutral-300);
+6:    --symbol-color-active: var(--sl-color-amber-500);
+7-    --symbol-size: 1.2rem;
+
+tab/tab.styles.ts
+14-    border-radius: var(--sl-border-radius-medium);
+15:    color: var(--sl-color-neutral-600);
+16-    padding: var(--sl-spacing-medium) var(--sl-spacing-large);
+--
+26-  .tab:hover:not(.tab--disabled) {
+27:    color: var(--sl-color-primary-600);
+28-  }
+--
+34-  :host(:focus-visible) {
+35:    color: var(--sl-color-primary-600);
+36-    outline: var(--sl-focus-ring);
+--
+40-  .tab.tab--active:not(.tab--disabled) {
+41:    color: var(--sl-color-primary-600);
+42-  }
+
+tree/tree.styles.ts
+8-     */
+9:    --indent-guide-color: var(--sl-color-neutral-200);
+10-    --indent-guide-offset: 0;
+
+progress-ring/progress-ring.styles.ts
+6-    --track-width: 4px;
+7:    --track-color: var(--sl-color-neutral-200);
+8-    --indicator-width: var(--track-width);
+9:    --indicator-color: var(--sl-color-primary-600);
+10-    --indicator-transition-duration: 0.35s;
+
+icon-button/icon-button.styles.ts
+5-    display: inline-block;
+6:    color: var(--sl-color-neutral-600);
+7-  }
+--
+25-  .icon-button:focus-visible:not(.icon-button--disabled) {
+26:    color: var(--sl-color-primary-600);
+27-  }
+--
+29-  .icon-button:active:not(.icon-button--disabled) {
+30:    color: var(--sl-color-primary-700);
+31-  }
+
+menu-label/menu-label.styles.ts
+13-    letter-spacing: var(--sl-letter-spacing-normal);
+14:    color: var(--sl-color-neutral-500);
+15-    padding: var(--sl-spacing-2x-small) var(--sl-spacing-x-large);
+
+tree/tree.component.ts
+66- * @cssproperty [--indent-size=var(--sl-spacing-medium)] - The size of the indentation for nested items.
+67: * @cssproperty [--indent-guide-color=var(--sl-color-neutral-200)] - The color of the indentation line.
+68- * @cssproperty [--indent-guide-offset=0] - The amount of vertical spacing to leave between the top and bottom of the
+
+input/input.styles.ts
+115-    box-shadow: 0 0 0 var(--sl-input-height-large) var(--sl-input-background-color-hover) inset !important;
+116:    -webkit-text-fill-color: var(--sl-color-primary-500);
+117-    caret-color: var(--sl-input-color);
+
+tree-item/tree-item.styles.ts
+22-    flex-direction: column;
+23:    color: var(--sl-color-neutral-700);
+24-    cursor: pointer;
+--
+58-    box-sizing: content-box;
+59:    color: var(--sl-color-neutral-500);
+60-    padding: var(--sl-spacing-x-small);
+--
+110-  :host(:not([aria-disabled='true'])) .tree-item--selected .tree-item__item {
+111:    background-color: var(--sl-color-neutral-100);
+112:    border-inline-start-color: var(--sl-color-primary-600);
+113-  }
+--
+115-  :host(:not([aria-disabled='true'])) .tree-item__expand-button {
+116:    color: var(--sl-color-neutral-600);
+117-  }
+
+tag/tag.styles.ts
+27-  .tag--primary {
+28:    background-color: var(--sl-color-primary-50);
+29:    border-color: var(--sl-color-primary-200);
+30:    color: var(--sl-color-primary-800);
+31-  }
+--
+33-  .tag--primary:active > sl-icon-button {
+34:    color: var(--sl-color-primary-600);
+35-  }
+--
+37-  .tag--success {
+38:    background-color: var(--sl-color-success-50);
+39:    border-color: var(--sl-color-success-200);
+40:    color: var(--sl-color-success-800);
+41-  }
+--
+43-  .tag--success:active > sl-icon-button {
+44:    color: var(--sl-color-success-600);
+45-  }
+--
+47-  .tag--neutral {
+48:    background-color: var(--sl-color-neutral-50);
+49:    border-color: var(--sl-color-neutral-200);
+50:    color: var(--sl-color-neutral-800);
+51-  }
+--
+53-  .tag--neutral:active > sl-icon-button {
+54:    color: var(--sl-color-neutral-600);
+55-  }
+--
+57-  .tag--warning {
+58:    background-color: var(--sl-color-warning-50);
+59:    border-color: var(--sl-color-warning-200);
+60:    color: var(--sl-color-warning-800);
+61-  }
+--
+63-  .tag--warning:active > sl-icon-button {
+64:    color: var(--sl-color-warning-600);
+65-  }
+--
+67-  .tag--danger {
+68:    background-color: var(--sl-color-danger-50);
+69:    border-color: var(--sl-color-danger-200);
+70:    color: var(--sl-color-danger-800);
+71-  }
+--
+73-  .tag--danger:active > sl-icon-button {
+74:    color: var(--sl-color-danger-600);
+75-  }
+
+carousel/carousel.styles.ts
+103-    font-size: inherit;
+104:    color: var(--sl-color-neutral-600);
+105-    padding: var(--sl-spacing-x-small);
+--
+137-    height: var(--sl-spacing-small);
+138:    background-color: var(--sl-color-neutral-300);
+139-    padding: 0;
+--
+143-  .carousel__pagination-item--active {
+144:    background-color: var(--sl-color-neutral-700);
+145-    transform: scale(1.2);
+
+range/range.styles.ts
+6-    --tooltip-offset: 10px;
+7:    --track-color-active: var(--sl-color-neutral-200);
+8:    --track-color-inactive: var(--sl-color-neutral-200);
+9-    --track-active-offset: 0%;
+--
+65-    border-radius: 50%;
+66:    background-color: var(--sl-color-primary-600);
+67:    border: solid var(--sl-input-border-width) var(--sl-color-primary-600);
+68-    -webkit-appearance: none;
+--
+73-  .range__control:enabled::-webkit-slider-thumb:hover {
+74:    background-color: var(--sl-color-primary-500);
+75:    border-color: var(--sl-color-primary-500);
+76-  }
+--
+83-  .range__control:enabled::-webkit-slider-thumb:active {
+84:    background-color: var(--sl-color-primary-500);
+85:    border-color: var(--sl-color-primary-500);
+86-    cursor: grabbing;
+--
+112-    border-radius: 50%;
+113:    background-color: var(--sl-color-primary-600);
+114:    border-color: var(--sl-color-primary-600);
+115-    transition:
+--
+123-  .range__control:enabled::-moz-range-thumb:hover {
+124:    background-color: var(--sl-color-primary-500);
+125:    border-color: var(--sl-color-primary-500);
+126-  }
+--
+133-  .range__control:enabled::-moz-range-thumb:active {
+134:    background-color: var(--sl-color-primary-500);
+135:    border-color: var(--sl-color-primary-500);
+136-    cursor: grabbing;
+
+dialog/dialog.styles.ts
+116-    .dialog__panel {
+117:      border: solid 1px var(--sl-color-neutral-0);
+118-    }
+
+switch/switch.styles.ts
+51-    height: var(--height);
+52:    background-color: var(--sl-color-neutral-400);
+53:    border: solid var(--sl-input-border-width) var(--sl-color-neutral-400);
+54-    border-radius: var(--height);
+--
+62-    height: var(--thumb-size);
+63:    background-color: var(--sl-color-neutral-0);
+64-    border-radius: 50%;
+65:    border: solid var(--sl-input-border-width) var(--sl-color-neutral-400);
+66-    translate: calc((var(--width) - var(--height)) / -2);
+--
+83-  .switch:not(.switch--checked):not(.switch--disabled) .switch__control:hover {
+84:    background-color: var(--sl-color-neutral-400);
+85:    border-color: var(--sl-color-neutral-400);
+86-  }
+--
+88-  .switch:not(.switch--checked):not(.switch--disabled) .switch__control:hover .switch__thumb {
+89:    background-color: var(--sl-color-neutral-0);
+90:    border-color: var(--sl-color-neutral-400);
+91-  }
+--
+94-  .switch:not(.switch--checked):not(.switch--disabled) .switch__input:focus-visible ~ .switch__control {
+95:    background-color: var(--sl-color-neutral-400);
+96:    border-color: var(--sl-color-neutral-400);
+97-  }
+--
+99-  .switch:not(.switch--checked):not(.switch--disabled) .switch__input:focus-visible ~ .switch__control .switch__thumb {
+100:    background-color: var(--sl-color-neutral-0);
+101:    border-color: var(--sl-color-primary-600);
+102-    outline: var(--sl-focus-ring);
+--
+107-  .switch--checked .switch__control {
+108:    background-color: var(--sl-color-primary-600);
+109:    border-color: var(--sl-color-primary-600);
+110-  }
+--
+112-  .switch--checked .switch__control .switch__thumb {
+113:    background-color: var(--sl-color-neutral-0);
+114:    border-color: var(--sl-color-primary-600);
+115-    translate: calc((var(--width) - var(--height)) / 2);
+--
+119-  .switch.switch--checked:not(.switch--disabled) .switch__control:hover {
+120:    background-color: var(--sl-color-primary-600);
+121:    border-color: var(--sl-color-primary-600);
+122-  }
+--
+124-  .switch.switch--checked:not(.switch--disabled) .switch__control:hover .switch__thumb {
+125:    background-color: var(--sl-color-neutral-0);
+126:    border-color: var(--sl-color-primary-600);
+127-  }
+--
+130-  .switch.switch--checked:not(.switch--disabled) .switch__input:focus-visible ~ .switch__control {
+131:    background-color: var(--sl-color-primary-600);
+132:    border-color: var(--sl-color-primary-600);
+133-  }
+--
+135-  .switch.switch--checked:not(.switch--disabled) .switch__input:focus-visible ~ .switch__control .switch__thumb {
+136:    background-color: var(--sl-color-neutral-0);
+137:    border-color: var(--sl-color-primary-600);
+138-    outline: var(--sl-focus-ring);
+
+progress-bar/progress-bar.styles.ts
+5-    --height: 1rem;
+6:    --track-color: var(--sl-color-neutral-200);
+7:    --indicator-color: var(--sl-color-primary-600);
+8:    --label-color: var(--sl-color-neutral-0);
+9-
+--
+52-      outline: solid 1px SelectedItem;
+53:      background-color: var(--sl-color-neutral-0);
+54-    }
+
+menu-item/menu-item.styles.ts
+22-    letter-spacing: var(--sl-letter-spacing-normal);
+23:    color: var(--sl-color-neutral-700);
+24-    padding: var(--sl-spacing-2x-small) var(--sl-spacing-2x-small);
+--
+105-  .menu-item--submenu-expanded {
+106:    background-color: var(--sl-color-neutral-100);
+107:    color: var(--sl-color-neutral-1000);
+108-  }
+--
+111-    outline: none;
+112:    background-color: var(--sl-color-primary-600);
+113:    color: var(--sl-color-neutral-0);
+114-    opacity: 1;
+
+drawer/drawer.styles.ts
+152-    .drawer__panel {
+153:      border: solid 1px var(--sl-color-neutral-0);
+154-    }
+
+card/card.styles.ts
+4-  :host {
+5:    --border-color: var(--sl-color-neutral-200);
+6-    --border-radius: var(--sl-border-radius-medium);
+
+details/details.styles.ts
+8-  .details {
+9:    border: solid 1px var(--sl-color-neutral-200);
+10-    border-radius: var(--sl-border-radius-medium);
+11:    background-color: var(--sl-color-neutral-0);
+12-    overflow-anchor: none;
+
+split-panel/split-panel.styles.ts
+23-    justify-content: center;
+24:    background-color: var(--sl-color-neutral-200);
+25:    color: var(--sl-color-neutral-900);
+26-    z-index: 1;
+--
+33-  :host(:not([disabled])) .divider:focus-visible {
+34:    background-color: var(--sl-color-primary-600);
+35:    color: var(--sl-color-neutral-0);
+36-  }
+
+popup/popup.styles.ts
+4-  :host {
+5:    --arrow-color: var(--sl-color-neutral-1000);
+6-    --arrow-size: 6px;
+
+badge/badge.styles.ts
+16-    border-radius: var(--sl-border-radius-small);
+17:    border: solid 1px var(--sl-color-neutral-0);
+18-    white-space: nowrap;
+--
+26-  .badge--primary {
+27:    background-color: var(--sl-color-primary-600);
+28:    color: var(--sl-color-neutral-0);
+29-  }
+--
+31-  .badge--success {
+32:    background-color: var(--sl-color-success-600);
+33:    color: var(--sl-color-neutral-0);
+34-  }
+--
+36-  .badge--neutral {
+37:    background-color: var(--sl-color-neutral-600);
+38:    color: var(--sl-color-neutral-0);
+39-  }
+--
+41-  .badge--warning {
+42:    background-color: var(--sl-color-warning-600);
+43:    color: var(--sl-color-neutral-0);
+44-  }
+--
+46-  .badge--danger {
+47:    background-color: var(--sl-color-danger-600);
+48:    color: var(--sl-color-neutral-0);
+49-  }
+--
+61-  .badge--pulse.badge--primary {
+62:    --pulse-color: var(--sl-color-primary-600);
+63-  }
+--
+65-  .badge--pulse.badge--success {
+66:    --pulse-color: var(--sl-color-success-600);
+67-  }
+--
+69-  .badge--pulse.badge--neutral {
+70:    --pulse-color: var(--sl-color-neutral-600);
+71-  }
+--
+73-  .badge--pulse.badge--warning {
+74:    --pulse-color: var(--sl-color-warning-600);
+75-  }
+--
+77-  .badge--pulse.badge--danger {
+78:    --pulse-color: var(--sl-color-danger-600);
+79-  }
+
+option/option.styles.ts
+22-    letter-spacing: var(--sl-letter-spacing-normal);
+23:    color: var(--sl-color-neutral-700);
+24-    padding: var(--sl-spacing-x-small) var(--sl-spacing-medium) var(--sl-spacing-x-small) var(--sl-spacing-x-small);
+--
+29-  .option--hover:not(.option--current):not(.option--disabled) {
+30:    background-color: var(--sl-color-neutral-100);
+31:    color: var(--sl-color-neutral-1000);
+32-  }
+--
+35-  .option--current.option--disabled {
+36:    background-color: var(--sl-color-primary-600);
+37:    color: var(--sl-color-neutral-0);
+38-    opacity: 1;
+
+tab-group/tab-group.styles.ts
+4-  :host {
+5:    --indicator-color: var(--sl-color-primary-600);
+6:    --track-color: var(--sl-color-neutral-200);
+7-    --track-width: 2px;
+
+popup/popup.component.ts
+46- *  attribute is used.
+47: * @cssproperty [--arrow-color=var(--sl-color-neutral-0)] - The color of the arrow.
+48- * @cssproperty [--auto-size-available-width] - A read-only custom property that determines the amount of width the
+
+copy-button/copy-button.styles.ts
+4-  :host {
+5:    --error-color: var(--sl-color-danger-600);
+6:    --success-color: var(--sl-color-success-600);
+7-
+
+spinner/spinner.styles.ts
+11-    --track-color: rgb(128 128 128 / 25%);
+12:    --indicator-color: var(--sl-color-primary-600);
+13-    --speed: 2s;
+
+avatar/avatar.styles.ts
+16-    height: var(--size);
+17:    background-color: var(--sl-color-neutral-400);
+18-    font-family: var(--sl-font-sans);
+--
+20-    font-weight: var(--sl-font-weight-normal);
+21:    color: var(--sl-color-neutral-0);
+22-    user-select: none;
+
+radio/radio.styles.ts
+78-  .radio--checked .radio__control {
+79:    color: var(--sl-color-neutral-0);
+80:    border-color: var(--sl-color-primary-600);
+81:    background-color: var(--sl-color-primary-600);
+82-  }
+--
+85-  .radio.radio--checked:not(.radio--disabled) .radio__control:hover {
+86:    border-color: var(--sl-color-primary-500);
+87:    background-color: var(--sl-color-primary-500);
+88-  }
+
+alert/alert.styles.ts
+22-    line-height: 1.6;
+23:    color: var(--sl-color-neutral-700);
+24-    margin: inherit;
+--
+45-  .alert--primary {
+46:    border-top-color: var(--sl-color-primary-600);
+47-  }
+--
+49-  .alert--primary .alert__icon {
+50:    color: var(--sl-color-primary-600);
+51-  }
+--
+53-  .alert--success {
+54:    border-top-color: var(--sl-color-success-600);
+55-  }
+--
+57-  .alert--success .alert__icon {
+58:    color: var(--sl-color-success-600);
+59-  }
+--
+61-  .alert--neutral {
+62:    border-top-color: var(--sl-color-neutral-600);
+63-  }
+--
+65-  .alert--neutral .alert__icon {
+66:    color: var(--sl-color-neutral-600);
+67-  }
+--
+69-  .alert--warning {
+70:    border-top-color: var(--sl-color-warning-600);
+71-  }
+--
+73-  .alert--warning .alert__icon {
+74:    color: var(--sl-color-warning-600);
+75-  }
+--
+77-  .alert--danger {
+78:    border-top-color: var(--sl-color-danger-600);
+79-  }
+--
+81-  .alert--danger .alert__icon {
+82:    color: var(--sl-color-danger-600);
+83-  }
+--
+120-  .alert--primary .alert__countdown-elapsed {
+121:    background-color: var(--sl-color-primary-600);
+122-  }
+--
+124-  .alert--success .alert__countdown-elapsed {
+125:    background-color: var(--sl-color-success-600);
+126-  }
+--
+128-  .alert--neutral .alert__countdown-elapsed {
+129:    background-color: var(--sl-color-neutral-600);
+130-  }
+--
+132-  .alert--warning .alert__countdown-elapsed {
+133:    background-color: var(--sl-color-warning-600);
+134-  }
+--
+136-  .alert--danger .alert__countdown-elapsed {
+137:    background-color: var(--sl-color-danger-600);
+138-  }
+
+skeleton/skeleton.styles.ts
+5-    --border-radius: var(--sl-border-radius-pill);
+6:    --color: var(--sl-color-neutral-200);
+7:    --sheen-color: var(--sl-color-neutral-300);
+8-
+
+button/button.styles.ts
+78-  .button--standard.button--default {
+79:    background-color: var(--sl-color-neutral-0);
+80-    border-color: var(--sl-input-border-color);
+81:    color: var(--sl-color-neutral-700);
+82-  }
+--
+84-  .button--standard.button--default:hover:not(.button--disabled) {
+85:    background-color: var(--sl-color-primary-50);
+86:    border-color: var(--sl-color-primary-300);
+87:    color: var(--sl-color-primary-700);
+88-  }
+--
+90-  .button--standard.button--default:active:not(.button--disabled) {
+91:    background-color: var(--sl-color-primary-100);
+92:    border-color: var(--sl-color-primary-400);
+93:    color: var(--sl-color-primary-700);
+94-  }
+--
+97-  .button--standard.button--primary {
+98:    background-color: var(--sl-color-primary-600);
+99:    border-color: var(--sl-color-primary-600);
+100:    color: var(--sl-color-neutral-0);
+101-  }
+--
+103-  .button--standard.button--primary:hover:not(.button--disabled) {
+104:    background-color: var(--sl-color-primary-500);
+105:    border-color: var(--sl-color-primary-500);
+106:    color: var(--sl-color-neutral-0);
+107-  }
+--
+109-  .button--standard.button--primary:active:not(.button--disabled) {
+110:    background-color: var(--sl-color-primary-600);
+111:    border-color: var(--sl-color-primary-600);
+112:    color: var(--sl-color-neutral-0);
+113-  }
+--
+116-  .button--standard.button--success {
+117:    background-color: var(--sl-color-success-600);
+118:    border-color: var(--sl-color-success-600);
+119:    color: var(--sl-color-neutral-0);
+120-  }
+--
+122-  .button--standard.button--success:hover:not(.button--disabled) {
+123:    background-color: var(--sl-color-success-500);
+124:    border-color: var(--sl-color-success-500);
+125:    color: var(--sl-color-neutral-0);
+126-  }
+--
+128-  .button--standard.button--success:active:not(.button--disabled) {
+129:    background-color: var(--sl-color-success-600);
+130:    border-color: var(--sl-color-success-600);
+131:    color: var(--sl-color-neutral-0);
+132-  }
+--
+135-  .button--standard.button--neutral {
+136:    background-color: var(--sl-color-neutral-600);
+137:    border-color: var(--sl-color-neutral-600);
+138:    color: var(--sl-color-neutral-0);
+139-  }
+--
+141-  .button--standard.button--neutral:hover:not(.button--disabled) {
+142:    background-color: var(--sl-color-neutral-500);
+143:    border-color: var(--sl-color-neutral-500);
+144:    color: var(--sl-color-neutral-0);
+145-  }
+--
+147-  .button--standard.button--neutral:active:not(.button--disabled) {
+148:    background-color: var(--sl-color-neutral-600);
+149:    border-color: var(--sl-color-neutral-600);
+150:    color: var(--sl-color-neutral-0);
+151-  }
+--
+154-  .button--standard.button--warning {
+155:    background-color: var(--sl-color-warning-600);
+156:    border-color: var(--sl-color-warning-600);
+157:    color: var(--sl-color-neutral-0);
+158-  }
+159-  .button--standard.button--warning:hover:not(.button--disabled) {
+160:    background-color: var(--sl-color-warning-500);
+161:    border-color: var(--sl-color-warning-500);
+162:    color: var(--sl-color-neutral-0);
+163-  }
+--
+165-  .button--standard.button--warning:active:not(.button--disabled) {
+166:    background-color: var(--sl-color-warning-600);
+167:    border-color: var(--sl-color-warning-600);
+168:    color: var(--sl-color-neutral-0);
+169-  }
+--
+172-  .button--standard.button--danger {
+173:    background-color: var(--sl-color-danger-600);
+174:    border-color: var(--sl-color-danger-600);
+175:    color: var(--sl-color-neutral-0);
+176-  }
+--
+178-  .button--standard.button--danger:hover:not(.button--disabled) {
+179:    background-color: var(--sl-color-danger-500);
+180:    border-color: var(--sl-color-danger-500);
+181:    color: var(--sl-color-neutral-0);
+182-  }
+--
+184-  .button--standard.button--danger:active:not(.button--disabled) {
+185:    background-color: var(--sl-color-danger-600);
+186:    border-color: var(--sl-color-danger-600);
+187:    color: var(--sl-color-neutral-0);
+188-  }
+--
+201-    border-color: var(--sl-input-border-color);
+202:    color: var(--sl-color-neutral-700);
+203-  }
+--
+206-  .button--outline.button--default.button--checked:not(.button--disabled) {
+207:    border-color: var(--sl-color-primary-600);
+208:    background-color: var(--sl-color-primary-600);
+209:    color: var(--sl-color-neutral-0);
+210-  }
+--
+212-  .button--outline.button--default:active:not(.button--disabled) {
+213:    border-color: var(--sl-color-primary-700);
+214:    background-color: var(--sl-color-primary-700);
+215:    color: var(--sl-color-neutral-0);
+216-  }
+--
+219-  .button--outline.button--primary {
+220:    border-color: var(--sl-color-primary-600);
+221:    color: var(--sl-color-primary-600);
+222-  }
+--
+225-  .button--outline.button--primary.button--checked:not(.button--disabled) {
+226:    background-color: var(--sl-color-primary-600);
+227:    color: var(--sl-color-neutral-0);
+228-  }
+--
+230-  .button--outline.button--primary:active:not(.button--disabled) {
+231:    border-color: var(--sl-color-primary-700);
+232:    background-color: var(--sl-color-primary-700);
+233:    color: var(--sl-color-neutral-0);
+234-  }
+--
+237-  .button--outline.button--success {
+238:    border-color: var(--sl-color-success-600);
+239:    color: var(--sl-color-success-600);
+240-  }
+--
+243-  .button--outline.button--success.button--checked:not(.button--disabled) {
+244:    background-color: var(--sl-color-success-600);
+245:    color: var(--sl-color-neutral-0);
+246-  }
+--
+248-  .button--outline.button--success:active:not(.button--disabled) {
+249:    border-color: var(--sl-color-success-700);
+250:    background-color: var(--sl-color-success-700);
+251:    color: var(--sl-color-neutral-0);
+252-  }
+--
+255-  .button--outline.button--neutral {
+256:    border-color: var(--sl-color-neutral-600);
+257:    color: var(--sl-color-neutral-600);
+258-  }
+--
+261-  .button--outline.button--neutral.button--checked:not(.button--disabled) {
+262:    background-color: var(--sl-color-neutral-600);
+263:    color: var(--sl-color-neutral-0);
+264-  }
+--
+266-  .button--outline.button--neutral:active:not(.button--disabled) {
+267:    border-color: var(--sl-color-neutral-700);
+268:    background-color: var(--sl-color-neutral-700);
+269:    color: var(--sl-color-neutral-0);
+270-  }
+--
+273-  .button--outline.button--warning {
+274:    border-color: var(--sl-color-warning-600);
+275:    color: var(--sl-color-warning-600);
+276-  }
+--
+279-  .button--outline.button--warning.button--checked:not(.button--disabled) {
+280:    background-color: var(--sl-color-warning-600);
+281:    color: var(--sl-color-neutral-0);
+282-  }
+--
+284-  .button--outline.button--warning:active:not(.button--disabled) {
+285:    border-color: var(--sl-color-warning-700);
+286:    background-color: var(--sl-color-warning-700);
+287:    color: var(--sl-color-neutral-0);
+288-  }
+--
+291-  .button--outline.button--danger {
+292:    border-color: var(--sl-color-danger-600);
+293:    color: var(--sl-color-danger-600);
+294-  }
+--
+297-  .button--outline.button--danger.button--checked:not(.button--disabled) {
+298:    background-color: var(--sl-color-danger-600);
+299:    color: var(--sl-color-neutral-0);
+300-  }
+--
+302-  .button--outline.button--danger:active:not(.button--disabled) {
+303:    border-color: var(--sl-color-danger-700);
+304:    background-color: var(--sl-color-danger-700);
+305:    color: var(--sl-color-neutral-0);
+306-  }
+--
+320-    border-color: transparent;
+321:    color: var(--sl-color-primary-600);
+322-  }
+--
+326-    border-color: transparent;
+327:    color: var(--sl-color-primary-500);
+328-  }
+--
+332-    border-color: transparent;
+333:    color: var(--sl-color-primary-500);
+334-  }
+--
+338-    border-color: transparent;
+339:    color: var(--sl-color-primary-700);
+340-  }
+
+select/select.styles.ts
+340-    font-weight: var(--sl-font-weight-semibold);
+341:    color: var(--sl-color-neutral-500);
+342-    padding-block: var(--sl-spacing-2x-small);
+
+breadcrumb-item/breadcrumb-item.styles.ts
+13-    font-weight: var(--sl-font-weight-semibold);
+14:    color: var(--sl-color-neutral-600);
+15-    line-height: var(--sl-line-height-normal);
+--
+36-  :host(:not(:last-of-type)) .breadcrumb-item__label {
+37:    color: var(--sl-color-primary-600);
+38-  }
+--
+40-  :host(:not(:last-of-type)) .breadcrumb-item__label:hover {
+41:    color: var(--sl-color-primary-500);
+42-  }
+--
+44-  :host(:not(:last-of-type)) .breadcrumb-item__label:active {
+45:    color: var(--sl-color-primary-600);
+46-  }
+
+checkbox/checkbox.styles.ts
+44-    background-color: var(--sl-input-background-color);
+45:    color: var(--sl-color-neutral-0);
+46-    transition:
+--
+82-  .checkbox--indeterminate .checkbox__control {
+83:    border-color: var(--sl-color-primary-600);
+84:    background-color: var(--sl-color-primary-600);
+85-  }
+--
+89-  .checkbox.checkbox--indeterminate:not(.checkbox--disabled) .checkbox__control:hover {
+90:    border-color: var(--sl-color-primary-500);
+91:    background-color: var(--sl-color-primary-500);
+92-  }
+
+color-picker/color-picker.styles.ts
+176-    0% {
+177:      box-shadow: 0 0 0 0 var(--sl-color-primary-500);
+178-    }
+--
+211-    justify-items: center;
+212:    border-top: solid 1px var(--sl-color-neutral-200);
+213-    padding: var(--sl-spacing-small);
+--
+240-  .color-picker__transparent-bg {
+241:    background-image: linear-gradient(45deg, var(--sl-color-neutral-300) 25%, transparent 25%),
+242:      linear-gradient(45deg, transparent 75%, var(--sl-color-neutral-300) 75%),
+243:      linear-gradient(45deg, transparent 75%, var(--sl-color-neutral-300) 75%),
+244:      linear-gradient(45deg, var(--sl-color-neutral-300) 25%, transparent 25%);
+245-    background-size: 10px 10px;
+--
+317-      inset 0 0 0 2px var(--sl-input-border-color),
+318:      inset 0 0 0 4px var(--sl-color-neutral-0);
+319-  }
